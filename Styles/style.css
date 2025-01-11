@@ -11,6 +11,14 @@
     padding: 11px 20px 11px 20px;
 }
 
+.btn-primary:hover {
+    background-color: rgb(11, 195, 241);
+}
+
+.btn-secondary:hover {
+    background-color: rgb(11, 195, 241);
+}
+
 .btn-secondary {
     border-radius: 8px;
     background: rgb(0, 106, 80);
@@ -70,6 +78,10 @@
     margin-bottom: 118px;
 
 
+}
+
+.btn-title:hover {
+    background-color: rgb(11, 195, 241);
 }
 
 /* vision style */
@@ -185,14 +197,38 @@
     display: flex;
     align-items: center;
     gap: 24px;
-   
+    margin: 0 105px;
+    justify-content: space-evenly;
+
 }
 
 .donate-list {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
     padding: 40px;
     list-style: none;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+
+}
+
+.donate-list:hover {
+    background-color: rgb(11, 195, 241);
+}
+
+.input-amount {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 32px 0px;
+    text-align: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
