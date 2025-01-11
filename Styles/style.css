@@ -169,7 +169,7 @@
     background: rgb(255, 255, 255)
 }
 .quote-background {
-    background-image: url(/Images/quote-bg.png);
+    background-image: url(Images/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;
     padding: 40px;
