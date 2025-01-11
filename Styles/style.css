@@ -32,13 +32,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0px;
+    margin: 15px 0px;
     margin-bottom: 80px;
 }
 
 .banner-container {
     text-align: left;
-    margin: 117px 64px 117px 60px;
+    margin: 0px 40px 0px 60px;
+    padding:80px 0px;
 }
 
 .banner-title {
@@ -46,6 +47,7 @@
 
     font-size: 24px;
     font-weight: 500;
+    margin-top: 20px;
     margin-bottom: 16px;
 
 }
@@ -63,8 +65,7 @@
 }
 
 .banner-img {
-    margin: 0 auto;
-    ;
+    margin-right: 55px;
 }
 
 .btn-title {
@@ -85,9 +86,6 @@
 }
 
 /* vision style */
-/* .vision{
-    
-} */
 
 .title-primary {
     color: rgb(14, 14, 14);
@@ -165,7 +163,6 @@
 
 /* quote */
 .quote{
-    /* margin: 20px 0px; */
     padding: 48px 12px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -272,4 +269,5 @@ input[type=email] {
     border-radius: 24px;
     background: rgb(198, 228, 214);
     padding: 80px 100px;
+    margin-bottom: 80px;
 }
